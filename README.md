@@ -37,7 +37,8 @@ establish full-game stability or a guaranteed frame rate for every episode.
 
 Current Steam / Complete Edition 1.2.0.59 and a Rockstar-launcher workflow
 are not supported by this build. Game files, compatibility mods, personal
-saves and account information are not supplied.
+saves and account information are not supplied. You can downgrade it to
+verision 1.0.8.0 to get it running.
 
 ## Quick install
 
@@ -46,10 +47,7 @@ saves and account information are not supplied.
    belongs at `/data/homebrew/PPSA99774/`.
 3. Copy your complete supported game folder to `/data/gtaiv/game/`, with
    `GTAIV.exe` directly inside that folder.
-4. Set `eboot.bin` and `.prx` files to execute permission `0755` if your FTP
-   client does not preserve it. Refresh/register **Grand Theft Auto IV** in
-   your homebrew loader, then launch it.
-5. Let first-run preparation finish. Select your story in the game's menu.
+4. Let first-run preparation finish. Select your story in the game's menu.
 
 The release includes an optional Python 3.11+ FTP installer for a **fresh
 installation**. See [the full instructions](docs/INSTALL.md) before using
