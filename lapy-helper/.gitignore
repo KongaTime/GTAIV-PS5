@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.d
+*.a
+
+# Private dependency checkouts and generated artifacts
+/.deps/
+/build/
+*.elf
+# Python cache
+__pycache__/
+
+# Backup files
+*.bak
+*.bak_*
+*.orig
+*~
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS
+Thumbs.db
+desktop.ini

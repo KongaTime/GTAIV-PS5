@@ -1,0 +1,6 @@
+{
+  "first_setup_requests_fresh_process": true,
+  "prepared_launch_never_opens_setup_graphics": true,
+  "validation_slower_than_initial_50ms_tested": true,
+  "result": "PASS: first setup requests a fresh process; prepared launch makes zero graphics calls even when validation exceeds 50 ms"
+}

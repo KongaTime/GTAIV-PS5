@@ -1,0 +1,7 @@
+{
+  "native_bundle_sha256": "0a5fbe45e3b6a88005e6622c07c8cf9585f2b1e4b37bf6702d1af186905198c5",
+  "native_bundle_matches_working_ps5_bundle": true,
+  "second_launch_does_not_rebuild": true,
+  "missing_files_message_verified": true,
+  "source_archives_read_only": true
+}

@@ -1,0 +1,11 @@
+{
+  "full_bundle_matches_working_ps5": true,
+  "existing_bundle_preserved": true,
+  "cached_pass_succeeds": true,
+  "missing_files_cleanup_passes": true,
+  "no_direct_malloc_or_calloc_calls": true,
+  "all_temporary_mappings_released": true,
+  "first_pass_memory": "SETUP_MEMORY maps=63 peak=9125888 live=0 heap_calls=0",
+  "cached_pass_memory": "SETUP_MEMORY maps=62 peak=9027584 live=0 heap_calls=0",
+  "error_path_memory": "SETUP_MEMORY maps=2 peak=8798208 live=0 heap_calls=0"
+}

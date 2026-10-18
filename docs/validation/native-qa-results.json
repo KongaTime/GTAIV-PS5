@@ -1,0 +1,23 @@
+{
+  "new_dynamic_imports": [
+    "munmap",
+    "pthread_join",
+    "strstr"
+  ],
+  "dxvk_dll_hashes_match_pinned_release": {
+    "syswow64/d3d8.dll": "63b1813456b56d18a1caca235951a8989bed11425d3867205f3539f03bc0b0ae",
+    "syswow64/d3d9.dll": "0895b26e19bdfdb3e0fd85e62e9d503a855da7933afd4b9ee5cac9936e50dcc1",
+    "syswow64/d3d10core.dll": "4d6ffb21aefd3ca625b53cf0bb07af54f360b264510ea437b8236470440274f7",
+    "syswow64/d3d11.dll": "112f344466590366321279469da738eeaeb41b126f3c91e5a8b92fc2ddebc6e0",
+    "syswow64/dxgi.dll": "05ee218a03abd1f883a08937d178ef182cbc32a7dca28f57378aaeab1ce2246d",
+    "system32/d3d8.dll": "c880d760b1c2e1b15e2da704b7a70441816e31a0bd53f8c0883748100d933809",
+    "system32/d3d9.dll": "bb7e5039872181f1a8907de77192e44e018a25ccda169d4b6f7dd43b985704e9",
+    "system32/d3d10core.dll": "b544801782b1f947de24c2e8dfb95dacf7820b2b38e08f587afd838296d2a36b",
+    "system32/d3d11.dll": "16e9f5258a055870e78ecd071f3455943e88c1cea5242f9abfacac8cc1c652a6",
+    "system32/dxgi.dll": "da6df75e38b5a37cb9e0c277e7b2d9478ed555c25a768729ea39cb96aa39b5fa"
+  },
+  "native_self_inspection": "file: eboot.bin\ncontainer: signed, plaintext\nsegments: 12\nauthority: 0x3100000000000002\nprogram type: 0x0000000000000001\napp version: 0x0000000000000000\nfirmware version: 0x0000000000000000\ndigest: 77833adc6ac47ff900ebe7d9ab0c8eb5ff7d185f0ed8172c91b408e9d0d558d6\nintegrity: valid\n",
+  "setup_screen_rendered": true,
+  "invalid_render_target_rejected": true,
+  "virtual_path_profile_and_controller_tests_pass": true
+}

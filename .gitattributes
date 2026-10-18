@@ -1,0 +1,11 @@
+* text=auto
+*.sh text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.dds binary
+*.elf binary
+# The pinned helper manifest hashes these protocol bytes; preserve CRLF.
+prospero-win/native/lapy_elevation_protocol.h -text

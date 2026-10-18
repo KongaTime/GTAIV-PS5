@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+/build/
+/dist/
+/release/
+/data/
+/gtaiv-upload-state.json
+*.log
+*.zip
+*.img
+*.rpf
+*.exe
+*.dll
+dev.conf

@@ -1,0 +1,38 @@
+Source for this package. THIRD_PARTY.md says what each part is and its licence.
+
+prospero-win  https://github.com/mpereiraesaa/prospero-win  commit 644e32e400c555e340d507383398c5d21b39b0b0
+Wine  https://gitlab.winehq.org/wine/wine  commit 490f6d5dcbb2a5047345b8af88d114bbcaad69a8,
+  with prospero-win's wine/patches (88 patches)
+PS5 Native App Boilerplate  https://github.com/mpereiraesaa/ps5-native-app-boilerplate
+  title: commit 9c0b994a048521af6fb84c73ded364504fe250e9
+  PS5 module tools: commit 30597512539e7edfde079cbcaf4a626bc0a948c5
+PS5 payload SDK  https://github.com/ps5-payload-dev/sdk  the release the boilerplate pins
+FreeType 2.13.3  https://download.savannah.gnu.org/releases/freetype/freetype-2.13.3.tar.xz
+  SHA-256 0550350666d427c74daeb85d5ac7bb353acba5f76956395995311a9c6f063289
+Lapy JB Daemon (lapy.elf)  https://github.com/mpereiraesaa/PS5-Lapy-JB-Daemon/releases/tag/v0.3.2-experimental  release v0.3.2-experimental
+RADV (libvulkan.prx)  https://github.com/mpereiraesaa/PS5_Mesa  commit 01d70579b8d410d6a482e36c6f184798ae4c83ad
+  linked by https://github.com/mpereiraesaa/PS5_Vulkan  commit 8aee3afb37bcfad06f0c7d263b901040f08ebbd0
+  with the payload SDK and platform layer  https://github.com/mihawk-99/PS5_PayloadSDK  commit 95c08f27386fc698f6bbe21dde3030140a41d10b
+GnuTLS 3.8.13 (libgnutls.prx)  https://www.gnupg.org/ftp/gcrypt/gnutls/v3.8/gnutls-3.8.13.tar.xz
+  SHA-256 ffed8ec1bf09c2426d4f14aae377de4753b53e537d685e604e99a8b16ca9c97e
+nettle 3.10.2 (libgnutls.prx)  https://ftp.gnu.org/gnu/nettle/nettle-3.10.2.tar.gz
+  SHA-256 fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5
+Root certificates (share/wine/ca-certificates.crt)  https://curl.se/ca/cacert-2026-09-25.pem
+  SHA-256 a41b5d356aea97a529fe27e0f7316d2f9d946d75927476cf9cf1b90637d00505
+
+Mesa WGL/Zink (PE32 and PE64)  https://github.com/mpereiraesaa/PS5_Mesa
+  commit e4607ef697fe3df8d1ebc329bf1917d041843306
+llvm-mingw 20260922-ucrt archive SHA-256 bb7bb7654b33d5aa8712acb837c963b2e0c56352560c76105270a3268c665c21
+
+Standalone GTA IV wrapper additions (2026-10-17)
+Native launcher base: prospero-win 644e32e400c555e340d507383398c5d21b39b0b0.
+Setup/bootstrap code: LGPL-2.1-or-later. The linked title retains the foundation's GPL-3.0 terms.
+tiny-AES-c: https://github.com/kokke/tiny-AES-c (Unlicense; accompanying notice).
+IMG3 format checked against Heidric/GTAIVModdingToolkit (MIT; accompanying notice).
+The archive key is read at setup from the user's supported game executable;
+neither that key nor GTA IV PC game archives are distributed in this package.
+Lapy helper built from PS5-Lapy-JB-Daemon b48b7d7236eca25c7b9dfd6c040c763ae05dde80,
+retargeted to PPSA99774 with the published owned-helper builder.
+Diagnostic wineserver source changes: accompanying GTAIV-Standalone-Source archive.
+
+DXVK 2.6.2-prospero2: https://github.com/mpereiraesaa/dxvk, commit a6f6dcc1eaa67946482ebdded0d1d5dc13293133; zlib license.

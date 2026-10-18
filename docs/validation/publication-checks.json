@@ -1,0 +1,10 @@
+{
+  "host_checks_pass": true,
+  "cwd_profile_controller_checks_pass": true,
+  "real_game_integration_rerun": false,
+  "runtime_files_unchanged": true,
+  "public_package_manifest_files": 3610,
+  "eboot_sha256": "914a65e308a8bd9aa3101e9935e69ff78cf12df4136444161d460c4e02112547",
+  "package_sha256": "dc02a8ea92d0168ced52da7da2dc623e83a37b7e0576a14596c98bf71ec2f00a",
+  "artwork_on_console_rechecked": false
+}
