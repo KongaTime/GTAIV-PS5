@@ -42,7 +42,7 @@ verision 1.0.8.0 to get it running.
 
 ## Quick install
 
-1. Download and extract `GTAIV-PS5-v0.1.0-test.zip` from Releases.
+1. Download and extract `GTAIV-PS5-v0.1.0.zip` from Releases.
 2. Upload its `data/` contents into the PS5's `/data/` directory. The app
    belongs at `/data/homebrew/PPSA99774/`.
 3. Copy your complete supported game folder to `/data/gtaiv/game/`, with
