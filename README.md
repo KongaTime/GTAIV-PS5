@@ -6,9 +6,9 @@ A standalone PS5 homebrew app built on **Prospero Win**. Install the app,
 copy your compatible GTA IV PC game files into `/data/gtaiv/game/`, and
 launch **Grand Theft Auto IV** from the PS5 home screen.
 
-**[Download the app](https://github.com/KongaTime/GTAIV-PS5/releases/tag/v0.1.0-test)**
- · [Installation and troubleshooting](docs/INSTALL.md)
- · [Build and source information](docs/BUILD.md)
+**[Download the app](https://github.com/KongaTime/GTAIV-PS5/releases/tag/V0.1.0)**
+ Â· [Installation and troubleshooting](docs/INSTALL.md)
+ Â· [Build and source information](docs/BUILD.md)
 
 ## What works
 
@@ -42,7 +42,7 @@ verision 1.0.8.0 to get it running.
 
 ## Quick install
 
-1. Download and extract `GTAIV-PS5-v0.1.0.zip` from Releases.
+1. Download and extract `GTAIV-PS5-V0.1.0-Artwork-Fixed.zip` from Releases.
 2. Upload its `data/` contents into the PS5's `/data/` directory. The app
    belongs at `/data/homebrew/PPSA99774/`.
 3. Copy your complete supported game folder to `/data/gtaiv/game/`, with
@@ -83,3 +83,10 @@ Grand Theft Auto IV names and artwork belong to their respective owners.
 The supplied home-screen artwork is separate from the software licenses.
 This is an unofficial homebrew project and is not affiliated with Rockstar
 Games or Sony.
+
+## Missing icon or backdrop?
+
+Use **[GTAIV-PS5-Artwork-Update.zip](https://github.com/KongaTime/GTAIV-PS5/releases/download/V0.1.0/GTAIV-PS5-Artwork-Update.zip)**
+to restore the three artwork files to an existing app, then refresh the
+title in your homebrew loader. This update preserves the game and saves.
+See [the artwork instructions](docs/INSTALL.md#restore-missing-home-screen-artwork).

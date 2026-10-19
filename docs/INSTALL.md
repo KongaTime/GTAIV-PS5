@@ -79,3 +79,33 @@ first-run checkpoints in `/data/gtaiv/setup.log`.
 The original Prospero Win title uses a separate title ID. This app has its
 own prefix and settings. Do not delete your game folder or saves to refresh
 the home-screen icon.
+
+## Restore missing home-screen artwork
+
+Download **GTAIV-PS5-Artwork-Update.zip** from the V0.1.0 release and
+extract it. It contains the original requested icon and both PS5 backdrop
+slots at these exact paths:
+
+```text
+data/homebrew/PPSA99774/sce_sys/icon0.png
+data/homebrew/PPSA99774/sce_sys/pic0.dds
+data/homebrew/PPSA99774/sce_sys/pic1.dds
+```
+
+Close the GTA IV app. Copy these three files into the matching folder on
+the PS5, or run the artwork-only uploader from the extracted update:
+
+```sh
+python install-artwork.py --host YOUR_PS5_IP --port 2121
+```
+
+The uploader checks the installed title ID, backs up previous artwork
+locally, and verifies the new image bytes after upload. It changes only
+these three images. Game files, executable, prefix and saves are preserved.
+Then **refresh/re-register the title with your homebrew loader** so the
+home screen picks up the artwork. A shell-cached image may continue to
+appear until registration metadata is refreshed.
+
+For a new installation, **GTAIV-PS5-V0.1.0-Artwork-Fixed.zip** includes the
+complete app plus these assets and both uploaders. Do not use the
+fresh-install uploader to overwrite an existing installation.

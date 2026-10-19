@@ -202,10 +202,15 @@ objects+=("$build/obj/ps5log.o" "$build/obj/ps5log_ps5_net.o")
     --magic 0x1D3D154F
 # The console installer copies icon0.png into /user/app/<title> and aborts
 # the whole registration if it is absent, so it is not optional.
-[[ -f $root/sce_sys/icon0.png ]] || python3 "$root/tools/make_icon.py"
+for art in icon0.png pic0.dds pic1.dds; do
+    [[ -f "$root/sce_sys/$art" ]] || {
+        echo "Required GTA IV presentation asset missing: $root/sce_sys/$art" >&2
+        exit 2
+    }
+done
 cp "$root/sce_sys/param.json" "$root/sce_sys/icon0.png" "$dist/sce_sys/"
 for art in pic0.dds pic1.dds; do
-    [[ ! -f "$root/sce_sys/$art" ]] || cp "$root/sce_sys/$art" "$dist/sce_sys/"
+    cp "$root/sce_sys/$art" "$dist/sce_sys/"
 done
 cp "$foundation/runtime/libc.prx" "$dist/sce_module/libc.prx"
 cp "$lapy_helper_elf" "$dist/lapy.elf"
