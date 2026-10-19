@@ -58,7 +58,7 @@ def main():
             if not entry.is_dir() and old.read(entry) != new.read(entry.filename):
                 changed.append(entry.filename)
         assert set(changed) <= {'README.md', 'install-gtaiv.py', 'manifest.json',
-                                'data/homebrew/PPSA99774/SOURCES.txt', *artwork}, changed
+                                'data/homebrew/PPSA99774/SOURCES.txt', 'install-artwork.py', *artwork}, changed
         for name, expected in artwork.items():
             assert new.read(name) == expected, 'Artwork missing or incorrect: '+name
         eboot = new.read('data/homebrew/PPSA99774/eboot.bin')

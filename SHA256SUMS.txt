@@ -1,1 +1,2 @@
-dc02a8ea92d0168ced52da7da2dc623e83a37b7e0576a14596c98bf71ec2f00a  GTAIV-PS5-v0.1.0-test.zip
+d7cff7f54fa32d6e0bf1d2945c0413442c5a4f92d5b1836f7175b7be6c889ef5  GTAIV-PS5-V0.1.0-Artwork-Fixed.zip
+ef494ddc910a68b8a227c08fe7ee64d3c5b3e34fc9b52451bd7c0cefcf4661d0  GTAIV-PS5-Artwork-Update.zip
